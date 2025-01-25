@@ -1,0 +1,15 @@
+description: '...Python package that provides a suite of mathematical models and tools
+  for constructing and analyzing investment portfolios. It offers functions for asset
+  allocation, risk assessment, optimization techniques, and performance evaluation,
+  enabling users to develop and implement robust portfolio strategies.'
+gh_create: gh repo create VanekPetr/portfoliomodels --public --description '...Python
+  package that provides a suite of mathematical models and tools for constructing
+  and analyzing investment portfolios. It offers functions for asset allocation, risk
+  assessment, optimization techniques, and performance evaluation, enabling users
+  to develop and implement robust portfolio strategies.'
+page: https://VanekPetr.github.io/portfoliomodels
+project_name: portfoliomodels
+repository: https://github.com/VanekPetr/portfoliomodels
+ssh_uri: git@github.com:VanekPetr/portfoliomodels.git
+status: public
+username: VanekPetr
