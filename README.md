@@ -8,6 +8,30 @@
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/VanekPetr/portfoliomodels)
 
+## Technologies and Models
+
+This python package brings together various optimization models for asset allocation,
+machine learning (ML) methodologies for feature selection, and algorithms for
+scenario generation.
+
+### Portfolio optimization models
+
+1. Conditional Value at Risk (CVaR) model - [read more](https://docs.mosek.com/portfolio-cookbook/riskmeasures.html#conditional-value-at-risk)
+2. Mean-Variance (Markowitz) model - [read more](https://docs.mosek.com/portfolio-cookbook/markowitz.html)
+
+### ML models
+
+1. Minimum Spanning Tree (MST) model - [read more](https://en.wikipedia.org/wiki/Minimum_spanning_tree)
+2. Hierarchical Clustering (HCA) model - [read more](https://en.wikipedia.org/wiki/Hierarchical_clustering)
+
+### Scenario generation algorithms
+
+1. Monte Carlo scenario simulation - [read more](https://en.wikipedia.org/wiki/Monte_Carlo_method)
+2. Bootstrap scenario simulation - [read more](https://en.wikipedia.org/wiki/Bootstrapping_(statistics))
+
+To further enhance your knowledge on mathematical optimization in finance, we highly
+recommend the [MOSEK Portfolio Optimization Cookbook](https://github.com/MOSEK/PortfolioOptimization).
+
 ## Getting Started
 
 ### **Set Up Environment**
@@ -34,16 +58,10 @@ make fmt
 
 Installs hooks to maintain code quality and formatting.
 
-### **Update Project Info**
-
-- Edit `pyproject.toml` to update authors and email addresses
-- Configure GitHub Pages (branch: gh-pages) in repository settings
-
-## Development Commands
+## Run test suite
 
 ```bash
 make tests   # Run test suite
-make marimo  # Start Marimo notebooks
 ```
 
 ## Contributing
