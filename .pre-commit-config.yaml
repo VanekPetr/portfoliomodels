@@ -44,9 +44,3 @@ repos:
     rev: v0.23
     hooks:
       - id: validate-pyproject
-
-  - repo: https://github.com/crate-ci/typos
-    rev: v1.29.4
-    hooks:
-      - id: typos
-        exclude: ^\.gitignore$
