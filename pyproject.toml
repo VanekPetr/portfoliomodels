@@ -6,6 +6,17 @@ authors = [{name='Petr Vanek', email= 'petrr.vanekk@mailinator.com'}]
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
+    "cvxpy>=1.6.0",
+    "loguru>=0.7.3",
+    "matplotlib>=3.10.0",
+    "networkx>=3.4.2",
+    "numpy>=2.2.2",
+    "pandas>=2.2.3",
+    "plotly>=5.24.1",
+    "pyarrow>=19.0.0",
+    "pytest>=8.3.4",
+    "scikit-learn>=1.6.1",
+    "scipy>=1.15.1",
 ]
 
 [project.urls]
