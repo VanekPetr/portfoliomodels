@@ -1,8 +1,8 @@
 [project]
 name = 'portfoliomodels'
 version = "0.0.0"
-description = "...Python package that provides a suite of mathematical models and tools for constructing and analyzing investment portfolios. It offers functions for asset allocation, risk assessment, optimization techniques, and performance evaluation, enabling users to develop and implement robust portfolio strategies."
-authors = [{name='Petr Vanek', email= 'petrr.vanekk@mailinator.com'}]
+description = "Python package that provides a suite of mathematical models and tools for constructing and analyzing investment portfolios. It offers functions for asset allocation, risk assessment, optimization techniques, and performance evaluation, enabling users to develop and implement robust portfolio strategies."
+authors = [{name='Petr Vanek', email= 'petrr.vanekk@gmail.com'}]
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
@@ -25,6 +25,7 @@ repository = "https://github.com/VanekPetr/portfoliomodels"
 
 [dependency-groups]
 dev = [
+    "deptry>=0.23.0",
 ]
 
 [tool.ruff]

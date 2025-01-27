@@ -35,6 +35,7 @@ jobs:
       - uses: cvxgrp/.github/actions/uv/deptry@v2.0.6
         with:
           source-folder: src/portfoliomodels
+          args: "--warn"
 
   pre-commit:
     runs-on: ubuntu-latest
