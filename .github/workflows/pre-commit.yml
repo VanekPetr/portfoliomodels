@@ -14,7 +14,7 @@ jobs:
       - name: Checkout [${{ github.repository }}]
         uses: actions/checkout@v4
 
-      - uses: cvxgrp/.github/actions/uv/coverage@v2.0.6
+      - uses: cvxgrp/.github/actions/uv/coverage@v2.0.7
         with:
           source-folder: src/portfoliomodels
           tests-folder: src/tests
@@ -32,7 +32,7 @@ jobs:
       - name: Checkout [${{ github.repository }}]
         uses: actions/checkout@v4
 
-      - uses: cvxgrp/.github/actions/uv/deptry@v2.0.6
+      - uses: cvxgrp/.github/actions/uv/deptry@v2.0.7
         with:
           source-folder: src/portfoliomodels
 
