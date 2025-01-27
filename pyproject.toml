@@ -6,6 +6,7 @@ authors = [{name='Petr Vanek', email= 'petrr.vanekk@gmail.com'}]
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
+    "clarabel>=0.9.0",
     "cvxpy>=1.6.0",
     "ecos>=2.0.14",
     "loguru>=0.7.3",
@@ -15,7 +16,6 @@ dependencies = [
     "pandas>=2.2.3",
     "plotly>=5.24.1",
     "pyarrow>=19.0.0",
-    "pytest>=8.3.4",
     "scikit-learn>=1.6.1",
     "scipy>=1.15.1",
 ]
@@ -26,6 +26,8 @@ repository = "https://github.com/VanekPetr/portfoliomodels"
 [dependency-groups]
 dev = [
     "deptry>=0.23.0",
+    "pre-commit>=4.1.0",
+    "pytest>=8.3.4",
 ]
 
 [tool.ruff]
@@ -54,3 +56,7 @@ include = [
 
 [tool.bandit]
 exclude_dirs = ["tests"]
+
+[tool.deptry.per_rule_ignores]
+DEP001 = ["gams"]
+DEP002 = ["clarabel","pyarrow", "ecos"]
